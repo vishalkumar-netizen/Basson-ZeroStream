@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lumina - Local Video Player</title>
+    <title>Basson - Local Video Player</title>
     
     <!-- Tailwind CSS -->
     <script>
@@ -133,7 +133,7 @@
     <header class="w-full p-4 flex justify-between items-center z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800 absolute top-0 left-0 transition-opacity duration-300" id="navbar">
         <div class="flex items-center gap-2">
             <i class="ph-fill ph-play-circle text-3xl text-brand-500"></i>
-            <h1 class="text-xl font-bold tracking-wide">Lumina <span class="text-gray-400 text-sm font-normal">Player</span></h1>
+            <h1 class="text-xl font-bold tracking-wide">Basson <span class="text-gray-400 text-sm font-normal">Player</span></h1>
         </div>
         <div class="flex items-center gap-4">
             <label for="video-upload-nav" class="cursor-pointer bg-gray-800 hover:bg-gray-700 transition-colors px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 shadow-lg">
@@ -436,7 +436,7 @@
                 // Cleanup previous
                 if (currentObjectURL) URL.revokeObjectURL(currentObjectURL);
                 
-                currentVideoId = `lumina_pos_${file.name}_${file.size}`;
+                currentVideoId = `Basson_pos_${file.name}_${file.size}`;
                 currentObjectURL = URL.createObjectURL(file);
                 
                 video.src = currentObjectURL;
@@ -444,7 +444,7 @@
                 // UI Switch
                 dropZone.classList.add('hidden');
                 playerWrapper.classList.remove('hidden');
-                document.title = `${file.name} - Lumina Player`;
+                document.title = `${file.name} - Basson Player`;
                 
                 // Reset states
                 speedOptions[1].click(); // Reset to 1x
