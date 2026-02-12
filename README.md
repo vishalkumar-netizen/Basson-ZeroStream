@@ -1,5 +1,4 @@
-🎬 Basson ZeroStream
-Basson ZeroStream is an ultra-lightweight, privacy-centric web utility designed to play local video files instantly within your browser. By eliminating the need for server uploads or software installations, it provides a "zero-bandwidth" solution for high-quality local playback.
+🎬 Basson ZeroStream is an ultra-lightweight, privacy-centric web utility designed to play local video files instantly within your browser. By eliminating the need for server uploads or software installations, it provides a "zero-bandwidth" solution for high-quality local playback.
 
 🚀 Key Features
 Absolute Privacy: Files are read locally via the browser's File API. Your data never touches the internet or any external server.
